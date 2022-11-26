@@ -18,40 +18,4 @@ reportWebVitals();
 
 
 
-/*
-let a = {
-    name: "Dimych",
-    age: 10,
-    adress: {
-        city: "Minsk",
-        country: "Belarus"
-    }
-};
-
-let users = [
-    {
-        name: "Dimych",
-        age: 10,
-        adress: {
-            city: "Minsk",
-            country: "Belarus"
-        }
-    },
-    {
-        name: "Victor",
-        age: 13,
-        adress: {
-            city: "Minsk",
-            country: "Belarus"
-        }
-    }
-]
-
-let b: string ; //any type
-b = "yo";
-
-
-alert(b);*/
-
-
 

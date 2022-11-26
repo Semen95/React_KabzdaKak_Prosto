@@ -13,6 +13,7 @@ const callback = action("accordion mode change event fired")
 const onClickCallback = action("some item was clicked")
 
 const Template: Story<AccordionPropsType> = (args) => <Accordion {...args}/>
+
 const callbacksProps = {
     onChange: callback,
     onClick: onClickCallback
@@ -33,7 +34,11 @@ UsersUncollapsedMode.args = {
     titleValue: "Users",
     collapsed: false,
     onChange: callback,
-    items: [{title: "dima", value: 1}, {title: "valera", value: 2}, {title: "katya", value: 3}],
+    items: [
+        {title: "dima", value: 1},
+        {title: "valera", value: 2},
+        {title: "katya", value: 3}
+    ],
     onClick: onClickCallback
 }
 
