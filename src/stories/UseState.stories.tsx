@@ -1,4 +1,4 @@
-import React, {useMemo, useState} from "react";//1
+import React, {useState} from "react"; //1
 
 export default {
     title: 'useState demo',
